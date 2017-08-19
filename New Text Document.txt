@@ -1,0 +1,66 @@
+nav links 14px 
+hero header 42px 75 line height
+services h2 30px  3 heading 24px paragraf 12px    header border line 45px
+portfolio h2 30 px line h 24px border line  navigation 14px 
+default section h2 30px lh 24px p 14px button wi 139px button text 14px   padding gore dole 24px w 40px 
+twiter heading 30px lh 24px p 28px lh 50px
+testimonials 30px  paragraf 28px lh 50px smal p 14px 
+contact 14px lh 24px bold 
+
+
+
+
+
+
+<!-- Photos with overlay -->
+			<div class="photo-container">
+				<div class="photo">
+				  <img src="img/p1.jpg" alt="">	
+				  <div class="photo-overlay">
+					  <i class="fa fa-plus" aria-hidden="true"></i>
+			         </div>
+				</div>
+				<a href="#" class="button">download</a>
+			</div>
+
+
+
+
+
+.photo-container {
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+.photo {
+	position: relative;
+	line-height: 0;
+	margin-bottom: 2em;
+	overflow: hidden;
+}
+
+.photo-overlay {
+	opacity: 0;
+	transition-property: opacity;
+	transition-duration: .5s;
+}
+
+.photo-overlay:hover {
+	opacity: 1;
+}
+
+.photo-overlay {
+	color: #fff;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0; 
+	left: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+  background: rgba(0,0,0, .65);
+}
